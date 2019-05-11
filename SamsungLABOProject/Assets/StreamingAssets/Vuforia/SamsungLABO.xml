@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Top" size="0.202000 0.202000" />
+    <ImageTarget name="TopRight" size="0.202000 0.202000" />
+    <ImageTarget name="TopLeft" size="0.202000 0.202000" />
     <ImageTarget name="Right" size="0.202000 0.202000" />
     <ImageTarget name="Left" size="0.202000 0.202000" />
-    <ImageTarget name="Front" size="0.202000 0.202000" />
+    <ImageTarget name="Center" size="0.202000 0.202000" />
+    <ImageTarget name="Bottom" size="0.202000 0.202000" />
+    <ImageTarget name="BottomRight" size="0.202000 0.202000" />
+    <ImageTarget name="BottomLeft" size="0.202000 0.202000" />
   </Tracking>
 </QCARConfig>
