@@ -50,7 +50,7 @@ public class Cube : MonoBehaviour {
                 spinForce += 0.2f;
                 xposition = Player.transform.position.x;
                 //xposition = Random.Range(-3, 3);
-                yposition = Random.Range(1, 3);
+                yposition = Player.transform.position.y - 1.5f + Random.Range(1, 3);
                 xscale = Random.Range(1, 4);
                 yscale = Random.Range(1, 4);
                 zscale = Random.Range(1, 4);
